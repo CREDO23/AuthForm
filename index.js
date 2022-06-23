@@ -8,7 +8,7 @@ const mail = document.getElementById('mail');
 const password = document.getElementById('password');
 const form = document.getElementById('form');
 
-//-------Les erreurs------------
+//-------Les messages d`erreurs------------
 
 const emptyFirstName = 'First Name cannot be empty';
 const emptyLastName = 'Last Name cannot be empty';
@@ -17,7 +17,7 @@ const emptyPassword = 'Password cannot be empty';
 
 // ---------Regex------------
 
-let emailRegex = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/;
+const emailRegex = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/;
 
 const validation = () => {
 	let notEmptyFirstName,
