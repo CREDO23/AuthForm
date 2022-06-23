@@ -19,6 +19,8 @@ const emptyPassword = 'Password cannot be empty';
 
 const emailRegex = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/;
 
+// -------Validation des inputs ----
+
 const validation = () => {
 	let notEmptyFirstName,
 		notEmptyLastName,
