@@ -170,6 +170,11 @@ input[type='password']:focus {
 		padding: 30px 0;
 	}
 
+	.left {
+		height: 30%;
+		font-size: 14px;
+	}
+
 	.left h2 {
 		font-size: x-large;
 	}
